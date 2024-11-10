@@ -11,7 +11,7 @@ def main():
     st.title("Reemplazador de Texto en PDF")
 
     # Subir archivo PDF
-    uploaded_file = st.file_uploader("Sube tu archivo PDF", type="pdf", label="Seleccionar PDF")
+    uploaded_file = st.file_uploader("Sube tu archivo PDF", type="pdf")
 
     if uploaded_file is not None:
         # Crear un archivo temporal para guardar el PDF subido
